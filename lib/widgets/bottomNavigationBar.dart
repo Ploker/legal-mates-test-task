@@ -8,7 +8,7 @@ class bottomNavigationBar extends StatefulWidget {
 class _bottomNavigationBarState extends State<bottomNavigationBar> {
   int countMessage = 12;
 
-  int _selectedIndex = 0;
+  int _selectedIndex = 1;
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
