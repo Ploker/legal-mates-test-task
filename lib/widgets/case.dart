@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:legal_mates/models/Bidders.dart';
 
 class CaseWidget extends StatelessWidget {
-  // final Bidders bidders;
-  // CaseWidget(this.bidders);
-
   Widget _buildTag({String tagName, Icon icon, bool active = false}) {
     return Chip(
       avatar: icon,
